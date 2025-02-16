@@ -1,7 +1,7 @@
 #import "@preview/ctheorems:1.1.3"
 #import "@preview/physica:0.9.4": super-T-as-transpose
 
-#let theorem = ctheorems.thmbox("theorem", "Теорема", fill: rgb("#8e4d38")).with(numbering: none)
+#let theorem = ctheorems.thmbox("theorem", "Теорема", fill: rgb("#e88725")).with(numbering: none)
 #let lemma = ctheorems.thmbox("theorem", "Лемма", fill: rgb("#3fbc5f")).with(numbering: none)
 #let proof = ctheorems.thmproof("theorem", "Доказательство")
 #let eqref(lbl) = [(#ref(lbl, supplement: none))]
